@@ -18,13 +18,13 @@ Target: >= 85% test accuracy. Test set (10,000 images) was used only once, for t
 - Augmentation: random crop (padding 4) + random horizontal flip
 
 ## Data augmentation
-![augmentation](images/02_augmentation_examples.png)
-![comparison](images/04_augmentation_comparison.png)
+![augmentation](02_augmentation_examples.png)
+![comparison](04_augmentation_comparison.png)
 
 Without augmentation the model reaches 89.09% on test; with augmentation 91.82% (a change of +2.73 points). The right plot shows how the train-val gap behaves in both runs.
 
 ## Training curves
-![curves](images/03_training_curves.png)
+![curves](03_training_curves.png)
 
 ## Confusion matrix & errors
 ![cm](images/05_confusion_matrix.png)
