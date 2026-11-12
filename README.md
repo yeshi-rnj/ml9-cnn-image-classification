@@ -27,9 +27,9 @@ Without augmentation the model reaches 89.09% on test; with augmentation 91.82% 
 ![curves](03_training_curves.png)
 
 ## Confusion matrix & errors
-![cm](images/05_confusion_matrix.png)
-![per-class](images/06_per_class_accuracy.png)
-![misclassified](images/07_misclassified.png)
+![cm](05_confusion_matrix.png)
+![per-class](06_per_class_accuracy.png)
+![misclassified](07_misclassified.png)
 
 Most-confused pairs (true -> predicted): cat -> dog (94); dog -> cat (66); truck -> automobile (35). Easiest class: **automobile**, hardest: **cat**. The model tends to confuse visually similar animal classes (e.g. cat/dog), which look alike at 32x32 resolution.
 
