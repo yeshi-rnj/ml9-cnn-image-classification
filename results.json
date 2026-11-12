@@ -1,0 +1,21 @@
+{
+  "test_accuracy_with_aug": 0.9182,
+  "test_accuracy_no_aug": 0.8909,
+  "best_val_acc_with_aug": 0.9226,
+  "best_val_acc_no_aug": 0.8982,
+  "epochs": 30,
+  "batch_size": 128,
+  "seed": 42,
+  "per_class_accuracy": {
+    "airplane": 0.933,
+    "automobile": 0.965,
+    "bird": 0.868,
+    "cat": 0.801,
+    "deer": 0.935,
+    "dog": 0.881,
+    "frog": 0.951,
+    "horse": 0.944,
+    "ship": 0.955,
+    "truck": 0.949
+  }
+}
